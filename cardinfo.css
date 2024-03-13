@@ -1,0 +1,107 @@
+.product{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.card__row{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.purchase{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.name__card{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #1e1e1e;
+}
+.buy{
+    width: 503px;
+    border: 1px solid #219dd9;
+    border-radius: 15px;
+    padding: 25px;
+}
+.place{
+    width: 503px;
+    border: 1px solid #219dd9;
+    border-radius: 15px;
+    padding: 25px;
+}
+.buy__basket{
+    width: 100%;
+    height: 60px;
+    background: #219dd9;
+    border-radius: 15px;
+    border: none;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+}
+.buy_click{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #219dd9;
+    background: transparent;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: #219dd9;
+}
+
+.buy__availability{
+    font-weight: 400;
+    font-size: 20px;
+    color: #5c5c5c;
+    padding-bottom: 10px;
+}
+.buy__price{
+    font-weight: 500;
+    font-size: 30px;
+    color: #1e1e1e;
+    padding-bottom: 28px;
+}
+.blue{
+    font-weight: 600;
+    color: #219dd9;
+}
+.btngroup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/*********************************/
+.pickup{
+    display: flex;
+    justify-content: space-between;
+}
+.pickup__text{
+    font-weight: 400;
+    font-size: 18px;
+    color: #5c5c5c;
+}
+.pickup__h1{
+    font-weight: 400;
+    font-size: 22px;
+    color: #222;
+}
+/**************************************/
+.info__h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: #1e1e1e;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+.info__text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 136%;
+    color: #222;
+}

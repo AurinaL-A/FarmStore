@@ -1,0 +1,452 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 ;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo__text{
+    font-weight: 700;
+    font-size: 30px;
+    color: #219dd9;
+}
+.header__row1{
+    display: flex;
+    justify-content: space-between;
+    height: 131px;
+    align-items: center;
+}
+.right__menu{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.text__menu{
+font-weight: 500;
+font-size: 25px;
+text-align: center;
+color: #219dd9;
+}
+.love{
+    border-radius: 100%;
+    background-color: #7457f2;
+    border: none;
+    width: 81px;
+    height: 81px;
+    cursor: pointer;
+}
+.love:hover{
+    background-color: #5b3ce2;
+}
+.sale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 50px;
+    border: none;
+    width: 186px;
+    height: 81px;
+    background: #219dd9;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+.sale:hover{
+    background: #1581b8;
+}
+/**********************/
+.header__row2{
+    padding-bottom: 47px;
+}
+.search-tacks{
+    width: 1240px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.25);
+    border: 2px solid #219dd9;
+    border-radius: 40px;
+}
+.forma{
+    display: flex;
+    align-items: center;
+    padding-left: 66px;
+    width: 1240px;
+    height: 62px;
+    background-color: transparent;
+    border: none;
+}
+.none {
+	display: none;
+}
+
+.forma::placeholder{
+
+    font-weight: 400;
+    font-size: 22px;
+    color: #5c5c5c;
+}
+.header__form{
+    width: 147px;
+    height: 62px;
+    background: #219dd9;
+    border-radius: 40px;
+    border: none;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #219dd9;
+}
+/******************************************/
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 26px;
+}
+
+.menu__li{
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #5c5c5c;
+    list-style-type: none;
+} 
+/***********************************/
+.footer__row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #c6c9d2;
+    height: 108px;
+}
+.messenger{
+    display: flex;
+    gap: 18px;
+}
+.number{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #5c5c5c;
+}
+.email{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #5c5c5c;
+}
+.footer__row2{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 35px;
+    text-align: center;
+}
+.text__footer{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #bec1cb;
+}
+/*************************************/
+.gallery {
+	padding: 1rem;
+	display: grid;
+	overflow: scroll;
+	scroll-snap-type: both mandatory;
+
+}
+
+
+.active {
+	scroll-snap-type: unset;
+}
+.topdays__text{
+    font-weight: 700;
+    font-size: 35px;
+    color: #1e1e1e;
+    padding-bottom: 40px;
+    padding-top: 72px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+.card{
+    border-radius: 15px;
+    width: 291px;
+    height: 324px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+}
+.card__name{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 136%;
+    color: #222;
+}
+.name__price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+.card__price{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+    color: #222;
+    opacity: 0.5;
+}
+.card__btn{
+    margin-left: 15px;
+    border-radius: 40px;
+    width: 113px;
+    height: 41px;
+    background: #219dd9;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    color: #fff;
+}
+.skidka{
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    gap: 65px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: linear-gradient(270deg, #219dd9 0%, rgba(217, 217, 217, 0) 100%);
+}
+.skidka__gap{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.h1__skidka{
+    font-weight: 700;
+    font-size: 70px;
+    color: #1e1e1e;
+    
+}
+.text__skidka{
+    font-weight: 500;
+    font-size: 35px;
+    color: #555;
+}
+.procent{
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    width: 250px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(92deg, #219dd9 0%, #7457f2 97.5%, rgba(217, 217, 217, 0) 100%);
+}
+/*****************************************************************************************************/
+ /****************************Модалка*********************************/
+ .overlay {
+
+	/* Скрываем подложку  */
+	opacity: 0;
+	visibility: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	z-index: 20;
+	transition: .3s all;
+  }
+  
+  
+  /* Стили для модальных окон */
+  
+  .overlay {
+  
+	/* Скрываем подложку  */
+	opacity: 0;
+	visibility: hidden;
+  
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	z-index: 20;
+	transition: .3s all;
+  }
+  .wrap{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+ /* Стили для модальных окон */
+  
+ .modal {
+  
+	/* Скрываем окна  */
+	opacity: 0;
+	visibility: hidden;
+    border: 1px solid #1e1e1e;
+  
+	/*  Установаем ширину окна  */
+	width: 100%;
+	max-width: 1200px;
+  
+	/*  Центрируем и задаем z-index */
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 30;
+	/* Должен быть выше чем у подложки*/
+  
+	/*  Побочные стили   */
+	box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
+	text-align: left;
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #fff;
+	transition: 0.3s all;
+	color: #222;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 30px;
+  }
+  
+  
+  /* Стили для активных классов подложки и окна */
+  
+  .modal.active,
+  .overlay.active {
+	opacity: 1;
+	visibility: visible;
+  }
+  
+  
+  /* Стили для кнопки закрытия */
+  
+  .modal__cross {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	fill: #444;
+	cursor: pointer;
+  }
+  .reg__h1{
+    font-weight: 700;
+    font-size: 22px;
+    color: #1e1e1e;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .registration{
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    border-radius: 20px;
+    width: 375px;
+    height: 345px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .form__reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .input__reg{
+    border: 1px solid #219dd9;
+    border-radius: 10px;
+    width: 275px;
+    height: 40px;
+    padding-left: 20px;
+  }
+  .margin{
+    display: flex;
+    justify-content: center;
+  }
+  .btn__reg{
+    border: 1px solid #219dd9;
+    border-radius: 10px;
+    width: 206px;
+    height: 40px;
+    background: #219dd9;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  /* границы ячеек первого ряда таблицы */
+  .text__base{
+    font-weight: 600;
+    font-size: 20px;
+    color: #444;
+  }
+  .text__base_2{
+    font-weight: 400;
+    font-size: 18px;
+    color: #312d2d;
+  }
+  .text__base_3{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    color: #312d2d;
+
+  }
+ th {
+	padding: 10px 10px;
+    border: 1px solid rgb(95, 156, 197);
+ }
+ /* границы ячеек тела таблицы */
+ td {
+	border: 1px solid rgb(95, 156, 197);
+	text-align: center;
+	padding: 5px 10px;
+ }
+ table{
+    
+    border-collapse: collapse;
+    margin-bottom: 100px;
+ }
+ .center{
+    display: flex;
+    justify-content: center;
+ }

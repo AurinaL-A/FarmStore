@@ -1,0 +1,13 @@
+.me__h1{
+    font-weight: 700;
+    font-size: 35px;
+    color: #1e1e1e;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+.me__text{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 136%;
+    color: #222;
+}

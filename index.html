@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cardinfo.css">
+    <script src="./script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__row1">
+                <a href="./index.html"><div class="logo">
+                    <img src="./image/icon.png" alt="">
+                    <p class="logo__text">FarmStore</p>
+                </div></a>
+                <div class="right__menu">
+                    <a href="./me.html"><p class="text__menu">О нашем сайте</p></a>
+                    
+                    <a href="./registration.html"><button class="sale">
+                        <img src="./image/User.png" alt="">
+                        Войти
+                    </button></a>
+                </div>
+            </div>
+            
+            <div class="header__row3">
+                <ul class="menu">
+                    <a href="./antibiotics.html"><li class="menu__li">Антибиотики</li></a>
+                    <a href="./anesthetic.html"><li class="menu__li">Обезболивающие</li></a>
+                    <a href="./antiviral.html"><li class="menu__li">Противовирусные</li></a>
+                    <a href="./ointments.html"><li class="menu__li">Мази</li></a>
+                    <a href="./vitamin.html"><li class="menu__li">Витамины</li></a>
+                    <a href="./disinfect.html"><li class="menu__li">Обеззараживающие</li></a>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="main__row">
+                <div class="topdays">
+                    <p class="topdays__text">Товары дня</p>
+                    
+                    <div class="cards ">
+                        <div class="card " id="1" >
+                            <img src="./image/card/terafli.png" alt="">
+                            <div class="name__price">
+                                <p class="card__name">Терафлю</p>
+                                <p class="card__price">485 руб.</p>
+                            </div>
+                            <button class="card__btn js-open-modal" data-modal="1">В корзину</button>
+                            
+                        </div>
+                        <div class="card swiper-slider" id="2">
+                            <img src="./image/card/noshpa.png" alt="">
+                            <div class="name__price">
+                                <p class="card__name">Но-шпа</p>
+                                <p class="card__price">435 руб.</p>
+                            </div>
+                        <button class="card__btn js-open-modal" data-modal="2">В корзину</button>
+                        </div>
+                        <div class="card swiper-slider" id="3">
+                            <img src="./image/card/analgin.png" alt="">
+                            <div class="name__price">
+                                <p class="card__name">Анальгин</p>
+                                <p class="card__price">230 руб.</p>
+                            </div>
+                            <button class="card__btn js-open-modal" data-modal="1">В корзину</button>
+                        </div>
+                        <div class="card swiper-slider" id="4">
+                            <img src="./image/card/viferon.png" alt="">
+                            <div class="name__price">
+                                <p class="card__name">Виферон</p>
+                                <p class="card__price">400 руб.</p>
+                            </div>
+                            <button class="card__btn js-open-modal" data-modal="4">В корзину</button>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="skidka">
+                        <div class="skidka__gap">
+                            <p class="h1__skidka">Вау скидки!</p>
+                            <p class="text__skidka">Радуем выгодой на популярные <br> товары</p>
+                            <button class="procent">до 60%</button>
+                        </div>
+                        <img src="./image/free-sticker-cyber-monday 1.png" alt="">
+                    </div>
+
+                    <div class="topdays">
+                        <p class="topdays__text">Популярные товары</p>
+                        <div class="cards">
+                            <div class="card" id="1">
+                                <img src="./image/card/terafli.png" alt="">
+                                <div class="name__price">
+                                    <p class="card__name">Терафлю</p>
+                                    <p class="card__price">485 руб.</p>
+                                </div>
+                               <a href="./cardinfo.html"> <button class="card__btn js-open-modal" data-modal="1">В корзину</button></a>
+                            </div>
+                            <div class="card" id="2">
+                                <img src="./image/card/noshpa.png" alt="">
+                                <div class="name__price">
+                                    <p class="card__name">Но-шпа</p>
+                                    <p class="card__price">435 руб.</p>
+                                </div>
+                                <a href="./cardinfo.html"> <button class="card__btn js-open-modal" data-modal="1">В корзину</button></a>
+                            </div>
+                            
+                            <div class="card" id="3">
+                                <img src="./image/card/analgin.png" alt="">
+                                <div class="name__price">
+                                    <p class="card__name">Анальгин</p>
+                                    <p class="card__price">230 руб.</p>
+                                </div>
+                                <a href="./cardinfo.html"> <button class="card__btn js-open-modal" data-modal="1">В корзину</button></a>
+                            </div>
+                            <div class="card" id="4">
+                                <img src="./image/card/viferon.png" alt="">
+                                <div class="name__price">
+                                    <p class="card__name">Виферон</p>
+                                    <p class="card__price">400 руб.</p>
+                                </div>
+                                <a href="./cardinfo.html"> <button class="card__btn js-open-modal" data-modal="1">В корзину</button></a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="modal" data-modal="1">
+                <!--   Svg иконка для закрытия окна  -->
+                <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+                </svg> 
+                <div class="card__row">
+                
+                    <div class="product">
+                        <img src="./image/image 11.png" alt="">
+                        <div class="info">
+    
+                        </div>
+                        <div class="purchase">
+                            <div class="buy">
+                                <p class="buy__availability">
+                                    В наличии в 234 аптеках
+                                </p>
+                                <p class="buy__price">Цена от <span class="blue">480 руб.</span> </p>
+                                <div class="btngroup">
+                                    <button class="buy__basket">В корзину</button>
+                                    <button class="buy_click">Купить в 1 клик</button>
+                                </div>
+                                
+                            </div>
+                            <div class="place">
+                                <div class="pickups">
+                                    <div class="pickup">
+                                        <p class="pickup__h1">Самовывоз:</p>
+                                    <div class="pickup__text">
+                                        <p>Сегодня бесплатно из 34 аптек</p>
+                                        <p>Завтра или позже из 200 аптек</p>
+                                    </div>
+                                    </div>
+                                    <div class="pickup">
+                                        <p class="pickup__h1">Доставка:</p>
+                                    <div class="pickup__text">
+                                        <p>Доставка недоступна</p>
+                                    </div>
+                                    </div>
+                                    
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+    
+                        <p class="info__h1">
+                            Описание
+                        </p>
+                        <p class="info__text">
+                            Сыпучий белый гранулированный порошок с желтыми вкраплениями без посторонних частиц с цитрусовым запахом. Допускается наличие мягких комков.  
+                        </p>
+                        <p class="info__h1">
+                            Состав
+                        </p>
+                        <p class="info__text">
+                            Один пакетик содержит: Действующие вещества: парацетамол 325 мг, фенилэфрина гидрохлорид 10 мг,
+                             фенирамина малеат 20 мг, аскорбиновая кислота 50 мг. Вспомогательные вещества: натрия цитрата дигидрат 120,74 мг,
+                              яблочная кислота 50,31 мг, краситель солнечный закат желтый 0,098 мг,
+                               краситель хинолиновый желтый 0,094 мг, титана диоксид 3,16 мг, ароматизатор лимонный 208,42 мг,
+                                кальция фосфат трехосновный 82 мг, лимонная кислота 1221,79 мг, сахароза 20000 мг.  
+                        </p>
+            
+            </div>
+            </div>
+            <div class="modal" data-modal="2">
+                <!--   Svg иконка для закрытия окна  -->
+                <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+                </svg> 
+                <p>2</p>
+            </div>
+
+
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__row1">
+                <p class="number">8 (945) 890 77 11</p>
+                <div class="messenger">
+                    <img src="./image/vk.png" alt="">
+                    <img src="./image/ok.png" alt="">
+                    <img src="./image/yt.png" alt="">
+                </div>
+                <p class="email">info@farmstore.ru</p>
+            </div>
+            <div class="footer__row2">
+                <p class="text__footer">OOO “FarmStore” г.Москва, Витебская ул. д.8, подьезд 6, этаж 5, помещение 564</p>
+                <p class="text__footer">Режим работы: круглосуточно</p>
+                <p class="text__footer">Информация на сайте носит справочно_информационный характер и не является публичной офертой</p>
+                <p class="text__footer">Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
